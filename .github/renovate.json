@@ -6,7 +6,7 @@
     {
       "customType": "regex",
       "managerFilePatterns": [
-        "azure-pipelines\\.ya?ml$"
+        "azure-pipelines.ya?ml"
       ],
       "matchStrings": [
         "ref:\\s*refs/tags/(?<currentValue>v?[0-9]+\\.[0-9]+\\.[0-9]+)"
