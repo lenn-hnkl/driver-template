@@ -5,7 +5,7 @@
   "customManagers": [
     {
       "customType": "regex",
-      "managerFilePatterns": [
+      "fileMatch": [
         "azure-pipelines.ya?ml"
       ],
       "matchStrings": [
