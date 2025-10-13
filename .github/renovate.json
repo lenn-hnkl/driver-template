@@ -1,6 +1,5 @@
 {
   "extends": ["config:base"],
-  "logLevel": "debug",
   "regexManagers": [
     {
       "fileMatch": ["azure-pipelines\\.ya?ml$"],

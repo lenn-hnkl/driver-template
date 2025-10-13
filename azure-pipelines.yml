@@ -1,9 +1,9 @@
 resources:
   repositories:
-    - repository: pipelineTemplates
+    - repository: pipelineTemplate
       type: github
-      name: lenn-hnkl/pipeline-templates
+      name: lenn-hnkl/pipeline-template
       ref: refs/tags/2.5.0
 
 steps:
-  - run: echo "Using pipelineTemplates 2.5.0"
+  - run: echo "Using pipelineTemplate 2.5.0"
