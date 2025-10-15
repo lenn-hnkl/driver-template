@@ -3,7 +3,7 @@ resources:
     - repository: pipelineTemplate
       type: github
       name: lenn-hnkl/pipeline-template
-      ref: refs/tags/2.7.0
+      ref: refs/tags/2.9.0
 
 steps:
   - template: template.yml@pipelineTemplate
